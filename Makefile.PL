@@ -1,0 +1,15 @@
+use strict;
+use inc::Module::Install;
+name 'Acme-POE-Acronym-Generator';
+author 'Chris Williams <chris@bingosnet.co.uk>';
+version_from 'lib/Acme/POE/Acronym/Generator.pm';
+abstract_from 'lib/Acme/POE/Acronym/Generator.pm';
+license 'perl';
+author_tests 'xt';
+perl_version '5';
+build_requires 'Test::More' => 0.47;
+requires 'strict' => 0;
+requires 'vars' => 0;
+requires 'warnings::compat' => 0 if $] < 5.006;
+requires 'Math::Random' => 0.69;
+WriteAll();
