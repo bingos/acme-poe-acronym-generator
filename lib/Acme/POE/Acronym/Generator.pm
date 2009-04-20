@@ -5,7 +5,7 @@ use warnings;
 use Math::Random;
 use vars qw($VERSION);
 
-$VERSION = '1.14';
+$VERSION = '1.16';
 
 sub new {
   my $package = shift;
@@ -88,7 +88,7 @@ option any other arbitary word ).
 
 =over
 
-=item new
+=item C<new>
 
 Takes three optional parameters:
 
@@ -106,7 +106,7 @@ Returns a shiny Acme::POE::Acronym::Generator object.
 
 =over
 
-=item generate
+=item C<generate>
 
 Takes no parameters. 
 
@@ -122,7 +122,7 @@ Chris C<BinGOs> Williams <chris@bingosnet.co.uk>
 
 =head1 LICENSE
 
-Copyright (C) Chris Williams
+Copyright E<copy> Chris Williams
 
 This module may be used, modified, and distributed under the same terms as Perl itself. Please see the license that came with your Perl distribution for details.
 
@@ -130,3 +130,4 @@ This module may be used, modified, and distributed under the same terms as Perl 
 
 L<http://poe.perl.org/?What_POE_Is>
 
+=cut
