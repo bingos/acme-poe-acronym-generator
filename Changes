@@ -1,6 +1,9 @@
 Acme::POE::Acronym::Generator
 =============================
 
+1.18	Mon May 18 10:38:05 BST 2009
+	- Added auto_provides, auto_license and githubmeta to Makefile.PL
+
 1.16	Mon Apr 20 11:15:15 BST 2009
 	- Set the repository in META.yml
 	- Tidy the POD slightly
